@@ -1,0 +1,137 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description>Login Servlet for  User</description>
+  	<servlet-class>com.ers.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewProfile</servlet-name>
+  	<display-name>ViewProfile</display-name>
+  	<description>Viewing Details of LoggedUser</description>
+  	<servlet-class>com.ers.controller.ViewProfile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SubmitRequest</servlet-name>
+  	<display-name>SubmitRequest</display-name>
+  	<description>For Employee Reimbursement Request Submission process</description>
+  	<servlet-class>com.ers.controller.SubmitRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmpPendingRequest</servlet-name>
+  	<display-name>EmpPendingRequest</display-name>
+  	<description>Employee can see their Pending Request</description>
+  	<servlet-class>com.ers.controller.EmpPendingRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllEmployee</servlet-name>
+  	<display-name>ViewAllEmployee</display-name>
+  	<description>For Manager View All Employee</description>
+  	<servlet-class>com.ers.controller.ViewAllEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllPendingRequest</servlet-name>
+  	<display-name>ViewAllPendingRequest</display-name>
+  	<description>Manager  can see all request </description>
+  	<servlet-class>com.ers.controller.ViewAllPendingRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestApproved</servlet-name>
+  	<display-name>RequestApproved</display-name>
+  	<description>RequestApproved by manager</description>
+  	<servlet-class>com.ers.controller.RequestApproved</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestResolved</servlet-name>
+  	<display-name>RequestResolved</display-name>
+  	<description>Request Resolved By Manager</description>
+  	<servlet-class>com.ers.controller.RequestResolved</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmpResolvedRequest</servlet-name>
+  	<display-name>EmpResolvedRequest</display-name>
+  	<description>Employee can see their Resolved Request </description>
+  	<servlet-class>com.ers.controller.EmpResolvedRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description>Common Logout for Employee and Manager</description>
+  	<servlet-class>com.ers.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllResolvedRequest</servlet-name>
+  	<display-name>ViewAllResolvedRequest</display-name>
+  	<description>Manager See All Resolved Request</description>
+  	<servlet-class>com.ers.controller.ViewAllResolvedRequest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewSpecificEmployee</servlet-name>
+  	<display-name>ViewSpecificEmployee</display-name>
+  	<description>View Specific Employee Request</description>
+  	<servlet-class>com.ers.controller.ViewSpecificEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllRequest</servlet-name>
+  	<display-name>ViewAllRequest</display-name>
+  	<description>View All Request By Manager</description>
+  	<servlet-class>com.ers.controller.ViewAllRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewProfile</servlet-name>
+  	<url-pattern>/ViewProfile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SubmitRequest</servlet-name>
+  	<url-pattern>/SubmitRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmpPendingRequest</servlet-name>
+  	<url-pattern>/EmpPendingRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllEmployee</servlet-name>
+  	<url-pattern>/ViewAllEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllPendingRequest</servlet-name>
+  	<url-pattern>/ViewAllPendingRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestApproved</servlet-name>
+  	<url-pattern>/RequestApproved</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestResolved</servlet-name>
+  	<url-pattern>/RequestResolved</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmpResolvedRequest</servlet-name>
+  	<url-pattern>/EmpResolvedRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllResolvedRequest</servlet-name>
+  	<url-pattern>/ViewAllResolvedRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewSpecificEmployee</servlet-name>
+  	<url-pattern>/ViewSpecificEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllRequest</servlet-name>
+  	<url-pattern>/ViewAllRequest</url-pattern>
+  </servlet-mapping>
+</web-app>
