@@ -68,7 +68,7 @@ Right click on the project -> Click on `Run` as -> Then `Run on Server`
 
 #### Entity Relationship (ER) Diagram
 
-![ER Diagram]("https://github.com/RunvalB/Project1-Expense-Reimbursement-System/blob/Images/Db%20design.png")
+![ER Diagram](https://github.com/RunvalB/Project1-Expense-Reimbursement-System/blob/751a4f2968b7a6ddbf1b4617f24ed5b02420adce/Images/Db%20design.png)
 
 ***
 ## License
