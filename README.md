@@ -56,7 +56,9 @@ To-do list:
 
 ## Getting Started
 Clone Expense Reimbursement System Project with below Command :   
-> git clone https://github.com/RunvalB/Project1-Expense-Reimbursement-System.git
+```
+git clone https://github.com/RunvalB/Project1-Expense-Reimbursement-System.git
+```
 
 Open Eclipse IDE -> Click on Import Projects -> Import ERS-Project1 Folder
 
