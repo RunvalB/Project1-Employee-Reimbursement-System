@@ -52,7 +52,7 @@ public class ManagerDaoImplTest extends TestCase {
 
 	public void testGetSpecificEmployeeDetail() throws NoEmployeeResultFound {
 		Employee emp = new Employee();
-		emp.setEmail("runval@gmail.com");
+		emp.setEmail("unknown@gmail.com");
 		Employee emp1 = empdao.getSpecificEmployeeDetail(emp);
 		assertNotNull(emp1);
 	}
