@@ -1,4 +1,4 @@
-package com.ers.testcases;
+/* package com.ers.testcases;
 
 import java.util.Date;
 import java.util.List;
@@ -36,4 +36,4 @@ public class EmployeeDaoImplTest extends TestCase {
 //		req.setEmployee(empobj);
 //		assertEquals(true,empdao.employeeRequest(req));	
 	}
-}
+} */
