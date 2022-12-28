@@ -1,4 +1,4 @@
-package com.ers.testcases;
+/* package com.ers.testcases;
 
 import java.util.List;
 
@@ -57,4 +57,4 @@ public class ManagerDaoImplTest extends TestCase {
 		assertNotNull(emp1);
 	}
 
-}
+} */
